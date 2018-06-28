@@ -2,8 +2,7 @@ package de.tum.in.cindy3dplugin.jogl.lighting;
 
 import java.awt.Color;
 
-import javax.media.opengl.GL2;
-
+import com.jogamp.opengl.GL2;
 import de.tum.in.cindy3dplugin.LightModificationInfo.LightFrame;
 import de.tum.in.cindy3dplugin.LightModificationInfo.LightType;
 

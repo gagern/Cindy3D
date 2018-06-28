@@ -3,9 +3,9 @@ package de.tum.in.cindy3dplugin.jogl.primitives.renderers;
 import java.nio.DoubleBuffer;
 import java.nio.IntBuffer;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
 
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import de.tum.in.cindy3dplugin.Cindy3DViewer.NormalType;
 import de.tum.in.cindy3dplugin.jogl.Util;
 import de.tum.in.cindy3dplugin.jogl.primitives.Mesh;

@@ -2,8 +2,7 @@ package de.tum.in.cindy3dplugin.jogl.primitives.renderers;
 
 import java.util.Collection;
 
-import javax.media.opengl.GL;
-
+import com.jogamp.opengl.GL;
 import de.tum.in.cindy3dplugin.jogl.primitives.Primitive;
 import de.tum.in.cindy3dplugin.jogl.renderers.JOGLRenderState;
 

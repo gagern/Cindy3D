@@ -2,10 +2,9 @@ package de.tum.in.cindy3dplugin.jogl.renderers;
 
 import java.util.logging.Level;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLAutoDrawable;
-import javax.media.opengl.GLException;
-
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLAutoDrawable;
+import com.jogamp.opengl.GLException;
 import de.tum.in.cindy3dplugin.jogl.ModelViewerCamera;
 import de.tum.in.cindy3dplugin.jogl.RenderHints;
 import de.tum.in.cindy3dplugin.jogl.Util;

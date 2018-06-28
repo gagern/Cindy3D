@@ -17,9 +17,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
-import javax.media.opengl.GL2;
 import javax.swing.JFileChooser;
 
+import com.jogamp.opengl.GL2;
 import org.apache.commons.math.geometry.Vector3D;
 import org.apache.commons.math.linear.RealMatrix;
 

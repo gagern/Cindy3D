@@ -1,8 +1,8 @@
 package de.tum.in.cindy3dplugin.jogl.primitives.renderers.fixedfunc;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
 
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import de.tum.in.cindy3dplugin.jogl.Util;
 import de.tum.in.cindy3dplugin.jogl.primitives.Circle;
 import de.tum.in.cindy3dplugin.jogl.primitives.renderers.CircleRendererBase;

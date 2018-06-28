@@ -1,8 +1,8 @@
 package de.tum.in.cindy3dplugin.jogl.renderers;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLAutoDrawable;
 
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLAutoDrawable;
 import de.tum.in.cindy3dplugin.jogl.ModelViewerCamera;
 import de.tum.in.cindy3dplugin.jogl.RenderHints;
 import de.tum.in.cindy3dplugin.jogl.Util;

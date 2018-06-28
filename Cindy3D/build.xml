@@ -9,7 +9,7 @@
     <property name="pluginfolder" location="${env.CINDERELLA_PLUGIN_DIR}/Cindy3D"/>
     <property name="plugin" location="Cindy3D.jar"/>
     <property name="ant-contrib.version" value="1.0b3"/>
-    <property name="jogl.version" value="v2.2.1"/>
+    <property name="jogl.version" value="v2.3.2"/>
     <property name="commons-math.version" value="commons-math-2.2"/>
     <property name="arches"
               value="linux-amd64,linux-i586,macosx-universal,solaris-amd64,solaris-i586,windows-amd64,windows-i586"/>
@@ -29,7 +29,7 @@
           unless="ant-contrib.available">
     <mkdir dir="lib/ant"/>
     <get dest="lib/ant/ant-contrib-${ant-contrib.version}-bin.zip"
-         src="http://downloads.sourceforge.net/project/ant-contrib/ant-contrib/${ant-contrib.version}/ant-contrib-${ant-contrib.version}-bin.zip?use_mirror=autoselect"
+         src="https://downloads.sourceforge.net/project/ant-contrib/ant-contrib/${ant-contrib.version}/ant-contrib-${ant-contrib.version}-bin.zip?use_mirror=autoselect"
          skipexisting="true"/>
     <unzip src="lib/ant/ant-contrib-${ant-contrib.version}-bin.zip"
            dest="lib/ant" overwrite="false">
@@ -61,7 +61,7 @@
 
   <target name="deps.cindy" depends="deps.init">
     <get dest="${cindy2jar}"
-         src="http://www.cinderella.de/files/release/cindy2.jar"
+         src="https://www.cinderella.de/files/release/cindy2.jar"
          skipexisting="true"/>
   </target>
 

@@ -1,7 +1,7 @@
 package de.tum.in.cindy3dplugin.jogl.lighting;
 
-import javax.media.opengl.GL2;
 
+import com.jogamp.opengl.GL2;
 import org.apache.commons.math.geometry.Vector3D;
 
 import de.tum.in.cindy3dplugin.LightModificationInfo.LightFrame;

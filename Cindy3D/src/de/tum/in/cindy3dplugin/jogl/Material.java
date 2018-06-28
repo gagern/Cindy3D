@@ -1,9 +1,9 @@
 package de.tum.in.cindy3dplugin.jogl;
 
-import java.awt.Color;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import java.awt.Color;
 
 /**
  * Material properties of a primitive.

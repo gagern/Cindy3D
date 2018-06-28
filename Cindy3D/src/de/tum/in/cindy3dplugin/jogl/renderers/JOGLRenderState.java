@@ -1,7 +1,6 @@
 package de.tum.in.cindy3dplugin.jogl.renderers;
 
-import javax.media.opengl.GL;
-
+import com.jogamp.opengl.GL;
 import de.tum.in.cindy3dplugin.jogl.ModelViewerCamera;
 import de.tum.in.cindy3dplugin.jogl.RenderHints;
 
@@ -74,7 +73,7 @@ public class JOGLRenderState {
 	 *            render hints that should be applied
 	 */
 	public JOGLRenderState(GL gl, ModelViewerCamera camera,
-			boolean renderOpaque, CullMode cullMode, RenderHints renderHints) {
+						   boolean renderOpaque, CullMode cullMode, RenderHints renderHints) {
 		this.gl = gl;
 		this.camera = camera;
 		this.renderOpaque = renderOpaque;

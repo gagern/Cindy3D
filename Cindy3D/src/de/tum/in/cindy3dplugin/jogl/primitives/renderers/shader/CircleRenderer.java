@@ -1,8 +1,7 @@
 package de.tum.in.cindy3dplugin.jogl.primitives.renderers.shader;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
-
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import org.apache.commons.math.geometry.Vector3D;
 
 import com.jogamp.opengl.util.glsl.ShaderProgram;

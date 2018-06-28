@@ -12,11 +12,11 @@ import java.awt.event.MouseWheelListener;
 import java.util.Hashtable;
 import java.util.logging.Level;
 
-import javax.media.opengl.GLCapabilities;
-import javax.media.opengl.GLProfile;
-import javax.media.opengl.awt.GLCanvas;
 import javax.swing.JFrame;
 
+import com.jogamp.opengl.GLCapabilities;
+import com.jogamp.opengl.GLProfile;
+import com.jogamp.opengl.awt.GLCanvas;
 import org.apache.commons.math.geometry.Vector3D;
 
 import de.tum.in.cindy3dplugin.AppearanceState;

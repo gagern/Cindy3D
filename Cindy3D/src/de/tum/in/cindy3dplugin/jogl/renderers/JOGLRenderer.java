@@ -1,7 +1,6 @@
 package de.tum.in.cindy3dplugin.jogl.renderers;
 
-import javax.media.opengl.GLEventListener;
-
+import com.jogamp.opengl.GLEventListener;
 import de.tum.in.cindy3dplugin.jogl.ModelViewerCamera;
 import de.tum.in.cindy3dplugin.jogl.RenderHints;
 import de.tum.in.cindy3dplugin.jogl.lighting.LightManager;
